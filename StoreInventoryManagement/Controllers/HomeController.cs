@@ -23,6 +23,31 @@ namespace StoreInventoryManagement.Controllers
             return View();
         }
 
+        public IActionResult Residual()
+        {
+            return View();
+        }
+
+        public IActionResult LowEmpty()
+        {
+            return View();
+        }
+
+        public IActionResult Markdown()
+        {
+            return View();
+        }
+
+        public IActionResult Remove()
+        {
+            return View();
+        }
+
+        public IActionResult ItemInfo()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

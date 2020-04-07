@@ -14,26 +14,26 @@
     <tr>
         <td>Residual Items</td>
         <td>Verify residual items are properly accounted for.</td>
-        <td><button>Select</button></td>
+        <td><button onclick="location.href='@Url.Action("Residual", "Home")'">Select</button></td>
     </tr>
     <tr>
         <td>Low/Empty Items</td>
         <td>Verify the balance of items that are low or empty on shelf.</td>
-        <td><button>Select</button></td>
+        <td><button onclick="location.href='@Url.Action("LowEmpty", "Home")'">Select</button></td>
     </tr>
     <tr>
         <td>Markdown Items</td>
         <td>Lower the price of damaged items or items approaching expiration.</td>
-        <td><button>Select</button></td>
+        <td><button onclick="location.href='@Url.Action("Markdown", "Home")'">Select</button></td>
     </tr>
     <tr>
         <td>Remove Items</td>
         <td>Remove items from inventory due to severe damage, expiration, theft, etc.</td>
-        <td><button>Select</button></td>
+        <td><button onclick="location.href='@Url.Action("Remove", "Home")'">Select</button></td>
     </tr>
     <tr>
         <td>Item Info</td>
         <td>Get various information on selected item.</td>
-        <td><button>Select</button></td>
+        <td><button onclick="location.href='@Url.Action("ItemInfo", "Home")'">Select</button></td>
     </tr>
 </table>
