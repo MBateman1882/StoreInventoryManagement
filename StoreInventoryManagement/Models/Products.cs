@@ -17,5 +17,6 @@ namespace StoreInventoryManagement.Models
         public int DaySales { get; set; }
         public int WeekSales { get; set; }
         public int MonthSales { get; set; }
+        public int IsActive { get; set; }
     }
 }

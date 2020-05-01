@@ -144,3 +144,7 @@ C:\Users\Me\source\repos\StoreInventoryManagement\StoreInventoryManagement\bin\D
 C:\Users\Me\source\repos\StoreInventoryManagement\StoreInventoryManagement\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Me\source\repos\StoreInventoryManagement\StoreInventoryManagement\obj\Debug\netcoreapp3.1\StoreInventoryManagement.csproj.CoreCompileInputs.cache
 C:\Users\Me\source\repos\StoreInventoryManagement\StoreInventoryManagement\obj\Debug\netcoreapp3.1\StoreInventoryManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Me\source\repos\StoreInventoryManagement\StoreInventoryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\EditOrder.cshtml.g.cs
+C:\Users\Me\source\repos\StoreInventoryManagement\StoreInventoryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\NewOrder.cshtml.g.cs
+C:\Users\Me\source\repos\StoreInventoryManagement\StoreInventoryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\OrderHistory.cshtml.g.cs
+C:\Users\Me\source\repos\StoreInventoryManagement\StoreInventoryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\OrderMenu.cshtml.g.cs

@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewData["Title"] = "OrderMenu";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Order Menu</h1>
+</div>
+
+<table class="table">
+    <tr>
+        <th>Function</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Create Order</td>
+        <td>Write a new order to bring in needed product.</td>
+        <td><button onclick="location.href='@Url.Action("NewOrder", "Home")'">Select</button></td>
+    </tr>
+    <tr>
+        <td>Edit Order</td>
+        <td>Edit an existing open order.</td>
+        <td><button onclick="location.href='@Url.Action("EditOrder", "Home")'">Select</button></td>
+    </tr>
+    <tr>
+        <td>Order History</td>
+        <td>View delivered orders.</td>
+        <td><button onclick="location.href='@Url.Action("OrderHistory", "Home")'">Select</button></td>
+    </tr>
+</table>

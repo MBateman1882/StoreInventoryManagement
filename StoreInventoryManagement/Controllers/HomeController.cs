@@ -13,6 +13,8 @@ namespace StoreInventoryManagement.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
+        StoreInventoryManagementContext db = new StoreInventoryManagementContext();
+
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -44,6 +46,26 @@ namespace StoreInventoryManagement.Controllers
         }
 
         public IActionResult ItemInfo()
+        {
+            return View(db);
+        }
+
+        public IActionResult OrderMenu()
+        {
+            return View();
+        }
+
+        public IActionResult NewOrder()
+        {
+            return View();
+        }
+
+        public IActionResult EditOrder()
+        {
+            return View();
+        }
+
+        public IActionResult OrderHistory()
         {
             return View();
         }
